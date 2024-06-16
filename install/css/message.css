@@ -1,0 +1,63 @@
+.notification {
+    position: relative;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+p {
+    margin: 5px 40px;
+    i {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0 16px;
+        font-size: 26px;
+        line-height: 48px;
+    }
+    span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        font-size: 20px;
+        padding: 0 16px;
+        line-height: 48px;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: -1px 0 0 0 rgba(0, 0, 0, 0.1);
+        /* https://stackoverflow.com/a/4062032 */
+        -webkit-background-clip: padding-box;
+        /* for Safari */
+        background-clip: padding-box;
+        /* for IE9+, Firefox 4+, Opera, Chrome */
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            cursor: pointer;
+        }
+    }
+}
+
+.notification-success {
+    background: #47b101;
+}
+
+.notification-error {
+    background: #ed4747;
+}
+
+.notification-info {
+    background: #0099d2;
+}
+
+.notification-warning {
+    background: #fa8100;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

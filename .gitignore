@@ -1,0 +1,14 @@
+.ftpconfig
+.remote-sync.json
+*adminer.css
+*config.php
+*error_log
+*error.log
+*errors.log
+.idea
+cache
+.env
+vendor
+composer.lock
+*.7z
+*.zip
